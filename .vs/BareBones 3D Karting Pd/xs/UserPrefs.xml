@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{39F550D0-BA6B-D391-E7EE-C6FC3AABDDFB}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Karting/Scripts/kartPd.cs">
+    <Files>
+      <File FileName="../../../../../Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets/Karting/Scripts/KartSystems/ArcadeKart.cs" />
+      <File FileName="Assets/Karting/Scripts/KartSystems/KartAudio/ArcadeEngineAudio.cs" />
+      <File FileName="Assets/Karting/Scripts/KartSystems/KartAudio/EngineAudio.cs" />
+      <File FileName="Assets/Karting/Scripts/LibPdInstance.cs" />
+      <File FileName="Assets/Karting/Scripts/KartSystems/KartAudio/kartSpeedPd.cs" Line="32" Column="6" />
+      <File FileName="Assets/Karting/Scripts/kartPositionPd.cs" Line="23" Column="43" />
+      <File FileName="Assets/Karting/Scripts/kartPd.cs" Line="35" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BareBones 3D Karting Pd" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Karting" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="KartSystems" expanded="True">
+                    <Node name="KartAudio" expanded="True" />
+                  </Node>
+                  <Node name="kartPd.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Mod Assets" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d1fff8f2-2b09-4fe1-b7fa-24ea09565cd4" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

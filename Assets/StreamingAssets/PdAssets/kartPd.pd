@@ -1,0 +1,9 @@
+#N canvas 264 46 1138 832 16;
+#X obj 73 47 receive currentSpeed;
+#X obj 64 213 receive locationX;
+#X obj 259 213 receive locationY;
+#X obj 460 214 receive locationZ;
+#X obj 67 312 receive rotationX;
+#X obj 261 315 receive rotationY;
+#X obj 472 316 receive rotationZ;
+#X obj 407 48 receive collision;
