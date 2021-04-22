@@ -1093,3 +1093,40 @@ System memory in use after: 238.1 MB.
 Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2983.
 Total: 3.074128 ms (FindLiveObjects: 0.442542 ms CreateObjectMapping: 0.158747 ms MarkObjects: 2.388636 ms  DeleteObjects: 0.082740 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009795 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.546 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2418 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.1 MB.
+System memory in use after: 238.3 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2987.
+Total: 3.248198 ms (FindLiveObjects: 0.345970 ms CreateObjectMapping: 0.117292 ms MarkObjects: 2.712614 ms  DeleteObjects: 0.070989 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4194.505579 seconds.
+  path: Assets/StreamingAssets/PdAssets/kartPdSynth 1.pd
+  artifactKey: Guid(3085836709bc94e6bab8698fa3deca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/PdAssets/kartPdSynth 1.pd using Guid(3085836709bc94e6bab8698fa3deca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21219c23d275cd69efaa993674baef79') in 0.025132 seconds
+  Import took 0.030356 seconds .
+
