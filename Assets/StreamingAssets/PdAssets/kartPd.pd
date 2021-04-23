@@ -13,3 +13,5 @@
 #X text 837 186 0 to around 20?;
 #X text 76 18 0 to 1?;
 #X text 263 349 0 to 360;
+#X obj 63 146 print speed;
+#X connect 0 0 14 0;
