@@ -1,4 +1,4 @@
-#N canvas 270 23 1138 832 16;
+#N canvas 157 75 1138 832 16;
 #X obj 186 91 i \$1;
 #X obj 204 149 pack f s;
 #X obj 295 100 symbol \$2;
@@ -7,8 +7,8 @@
 #X msg 111 236 read -resize sounds/\$2\$1.wav \$2_\$1;
 #X obj 111 265 soundfiler;
 #N canvas 0 22 450 278 (subpatch) 0;
-#X array \$2_\$1 44407 float 2;
-#X coords 0 1 44407 -1 200 140 1;
+#X array \$2_\$1 25209 float 2;
+#X coords 0 1 25209 -1 200 140 1;
 #X restore 491 45 graph;
 #X obj 209 308 unpack 0;
 #X floatatom 209 337 5 0 0 0 - - -;
@@ -35,7 +35,11 @@
 #X obj 670 348 r \$0-lengthms;
 #X floatatom 642 313 5 0 0 0 - - -;
 #X obj 591 241 t b f;
-#X obj 428 744 outlet~;
+#X obj 638 786 outlet~;
+#X obj 833 249 inlet;
+#X obj 648 683 *~;
+#X obj 757 583 line~;
+#X msg 782 493 \$1 10;
 #X connect 0 0 1 0;
 #X connect 1 0 5 0;
 #X connect 2 0 1 1;
@@ -63,9 +67,13 @@
 #X connect 22 1 21 0;
 #X connect 24 0 25 1;
 #X connect 25 0 26 0;
-#X connect 26 0 31 0;
+#X connect 26 0 33 0;
 #X connect 27 0 19 1;
 #X connect 28 0 27 1;
 #X connect 29 0 27 0;
 #X connect 30 0 22 0;
 #X connect 30 1 29 0;
+#X connect 32 0 35 0;
+#X connect 33 0 31 0;
+#X connect 34 0 33 1;
+#X connect 35 0 34 0;
