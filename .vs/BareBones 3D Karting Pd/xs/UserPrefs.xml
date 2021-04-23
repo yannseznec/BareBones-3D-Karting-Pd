@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{39F550D0-BA6B-D391-E7EE-C6FC3AABDDFB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Karting/Scripts/Utilities/MeshCombiner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Karting/Scripts/Button2Bang.cs">
     <Files>
       <File FileName="../../../../../Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" Line="1" Column="1" />
       <File FileName="Assets/Karting/Scripts/KartSystems/ArcadeKart.cs" Line="405" Column="41" />
@@ -8,6 +8,7 @@
       <File FileName="Assets/Karting/Scripts/kartPositionPd.cs" Line="23" Column="43" />
       <File FileName="Assets/Karting/Scripts/kartPd.cs" Line="24" Column="1" />
       <File FileName="Assets/Karting/Scripts/Utilities/MeshCombiner.cs" Line="25" Column="1" />
+      <File FileName="Assets/Karting/Scripts/Button2Bang.cs" Line="53" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,9 +20,8 @@
                   <Node name="KartSystems" expanded="True">
                     <Node name="KartAudio" expanded="True" />
                   </Node>
-                  <Node name="Utilities" expanded="True">
-                    <Node name="MeshCombiner.cs" selected="True" />
-                  </Node>
+                  <Node name="Utilities" expanded="True" />
+                  <Node name="Button2Bang.cs" selected="True" />
                 </Node>
               </Node>
               <Node name="Mod Assets" expanded="True" />
