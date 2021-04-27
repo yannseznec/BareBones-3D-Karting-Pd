@@ -1,2 +1,0 @@
-# Starting compiling KartGame.dll
-/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-76e7a163c47d94f7694d57c716614fd3

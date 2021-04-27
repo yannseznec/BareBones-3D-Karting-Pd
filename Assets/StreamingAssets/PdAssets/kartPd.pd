@@ -1,15 +1,68 @@
-#N canvas 264 46 1138 832 16;
+#N canvas 54 23 1353 788 16;
 #X obj 73 47 receive currentSpeed;
-#X obj 64 213 receive locationX;
-#X obj 259 213 receive locationY;
-#X obj 460 214 receive locationZ;
-#X obj 67 380 receive rotationX;
-#X obj 261 383 receive rotationY;
-#X obj 472 384 receive rotationZ;
-#X obj 843 220 receive collision;
-#X text 56 187 -250 to 250;
-#X text 447 183 -250 to 250;
-#X text 264 184 0 to 6ish;
-#X text 837 186 0 to around 20?;
-#X text 263 349 0 to 360;
+#X obj 455 110 receive locationX;
+#X obj 543 297 receive locationY;
+#X obj 718 69 receive locationZ;
+#X obj 896 640 receive rotationX;
+#X obj 177 181 receive rotationY;
+#X obj 898 675 receive rotationZ;
+#X obj 937 100 receive collision;
+#X text 447 84 -250 to 250;
+#X text 705 38 -250 to 250;
+#X text 931 66 0 to around 20?;
+#X text 179 147 0 to 360;
 #X text 76 18 0 to 1;
+#X obj 70 105 vsl 15 128 0 1 0 0 empty empty kartSpeed 0 -9 0 10 -262144
+-1 -1 0 1;
+#X floatatom 75 245 5 0 0 0 - - -;
+#X obj 996 252 vsl 15 128 0 20 0 0 empty empty kartCollision 0 -9 0
+10 -262144 -1 -1 2286 1;
+#X floatatom 1001 392 5 0 0 0 - - -;
+#X obj 1131 105 bng 15 250 50 0 empty empty simulate_random_collision
+17 7 0 10 -262144 -1 -1;
+#X obj 1132 166 random 200;
+#X obj 1132 195 / 10;
+#X floatatom 174 382 0 0 0 0 - - -;
+#X obj 174 434 * 6.28319;
+#X obj 174 408 / 360;
+#X obj 174 469 cos;
+#X obj 174 498 + 1;
+#X obj 174 527 / 2;
+#X obj 227 556 vsl 15 128 0 1 0 0 empty empty kartRotationScaled 0
+-9 0 10 -262144 -1 -1 12423 1;
+#X floatatom 232 696 5 0 0 0 - - -;
+#X obj 210 239 vsl 15 128 0 360 0 0 empty empty kartRotation 0 -9 0
+10 -262144 -1 -1 0 1;
+#X text 901 601 probably no need to use these;
+#X text 548 268 0 to 6ish - height!;
+#X obj 551 351 vsl 15 128 0 6 0 0 empty empty kartY 0 -9 0 10 -262144
+-1 -1 1100 1;
+#X floatatom 551 487 5 0 0 0 - - -;
+#X obj 456 220 vsl 15 128 -250 250 0 0 empty empty kartX 0 -9 0 10
+-262144 -1 -1 0 1;
+#X floatatom 456 356 5 0 0 0 - - -;
+#X obj 782 128 vsl 15 128 -250 250 0 0 empty empty kartZ 0 -9 0 10
+-262144 -1 -1 0 1;
+#X floatatom 782 264 5 0 0 0 - - -;
+#X connect 0 0 13 0;
+#X connect 1 0 33 0;
+#X connect 2 0 31 0;
+#X connect 3 0 35 0;
+#X connect 5 0 28 0;
+#X connect 7 0 15 0;
+#X connect 13 0 14 0;
+#X connect 15 0 16 0;
+#X connect 17 0 18 0;
+#X connect 18 0 19 0;
+#X connect 19 0 15 0;
+#X connect 20 0 22 0;
+#X connect 21 0 23 0;
+#X connect 22 0 21 0;
+#X connect 23 0 24 0;
+#X connect 24 0 25 0;
+#X connect 25 0 26 0;
+#X connect 26 0 27 0;
+#X connect 28 0 20 0;
+#X connect 31 0 32 0;
+#X connect 33 0 34 0;
+#X connect 35 0 36 0;
